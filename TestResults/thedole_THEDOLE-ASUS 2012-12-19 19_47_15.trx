@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7d12e041-ed60-41f6-901b-30e28bce577c" name="thedole@THEDOLE-ASUS 2012-12-19 19:47:15" runUser="THEDOLE-ASUS\thedole" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="168ee60e-43ee-4ad3-b024-3f224d347f6b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="thedole_THEDOLE-ASUS 2012-12-19 19_47_15" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-19T19:47:15.0415226+01:00" queuing="2012-12-19T19:47:15.1663228+01:00" start="2012-12-19T19:47:15.1819229+01:00" finish="2012-12-19T19:47:16.0243243+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="9" executed="9" passed="8" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AliveCellWithTwoOrThreeAliveNeighboursStaysAlive" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="8a38cc25-b9ac-4172-d9cb-fee8c9344c27">
+      <Execution id="f4bd987e-6e1a-4b69-aff4-26ab9fb65270" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveCellWithTwoOrThreeAliveNeighboursStaysAlive" />
+    </UnitTest>
+    <UnitTest name="DeadCellWithMoreThenThreeAliveNeighboursStaysDead" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="c3348b1a-f430-4e15-a061-63b1dfd86c4c">
+      <Execution id="db28cc0d-47b3-4e0b-8dd0-dc43b1b3588a" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeadCellWithMoreThenThreeAliveNeighboursStaysDead" />
+    </UnitTest>
+    <UnitTest name="AliveNeighbourCountOfBorderPixel" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="4d851a36-a238-74ed-1c5d-653addd908a4">
+      <Execution id="a50f2409-b242-4d6b-a771-9972611697d8" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveNeighbourCountOfBorderPixel" />
+    </UnitTest>
+    <UnitTest name="AliveCellWithMoreThenThreeAliveNeigboursDies" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="3db8c6c5-c2c4-8993-379c-ab3a7719e1ac">
+      <Execution id="86fe0e5d-8855-44ab-b65b-f5e319eeaf72" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveCellWithMoreThenThreeAliveNeigboursDies" />
+    </UnitTest>
+    <UnitTest name="AliveCellWithLessThenTwoAliveNeigboursDies" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="481d0ecd-35aa-c3b3-a58e-df6acea9d162">
+      <Execution id="9691e696-e73e-4064-bad6-088c25bbf07f" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveCellWithLessThenTwoAliveNeigboursDies" />
+    </UnitTest>
+    <UnitTest name="AliveNeighbourCountOfEightConnectedNeighboursOn5x5grid" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="e6a6b768-0d9f-404e-1089-104d118957f4">
+      <Execution id="d03bbd03-f481-4552-afcc-dad6a47eab14" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveNeighbourCountOfEightConnectedNeighboursOn5x5grid" />
+    </UnitTest>
+    <UnitTest name="DeadCellWithThreeAliveNeighboursBecomesAlive" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="8abccc33-4866-216c-529f-051cb4fe2e48">
+      <Execution id="186c101a-34e1-4d33-aa6e-cca4ebe02a22" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeadCellWithThreeAliveNeighboursBecomesAlive" />
+    </UnitTest>
+    <UnitTest name="DeadCellWithLessThenThreeAliveNeighboursStaysDead" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="283489f7-18c4-2334-aa3a-93a2bb2f2335">
+      <Execution id="85f787cd-aa17-4260-9a24-57f753be4288" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeadCellWithLessThenThreeAliveNeighboursStaysDead" />
+    </UnitTest>
+    <UnitTest name="AliveNeighbourCountOfEightConnectedNeighboursOn3x3grid" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="340ef246-e12f-a0f6-d485-f8c93e001dad">
+      <Execution id="40a739c9-58a0-4441-8cd3-8673ebb88c64" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveNeighbourCountOfEightConnectedNeighboursOn3x3grid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="283489f7-18c4-2334-aa3a-93a2bb2f2335" executionId="85f787cd-aa17-4260-9a24-57f753be4288" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="340ef246-e12f-a0f6-d485-f8c93e001dad" executionId="40a739c9-58a0-4441-8cd3-8673ebb88c64" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3db8c6c5-c2c4-8993-379c-ab3a7719e1ac" executionId="86fe0e5d-8855-44ab-b65b-f5e319eeaf72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="481d0ecd-35aa-c3b3-a58e-df6acea9d162" executionId="9691e696-e73e-4064-bad6-088c25bbf07f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d851a36-a238-74ed-1c5d-653addd908a4" executionId="a50f2409-b242-4d6b-a771-9972611697d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a38cc25-b9ac-4172-d9cb-fee8c9344c27" executionId="f4bd987e-6e1a-4b69-aff4-26ab9fb65270" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8abccc33-4866-216c-529f-051cb4fe2e48" executionId="186c101a-34e1-4d33-aa6e-cca4ebe02a22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3348b1a-f430-4e15-a061-63b1dfd86c4c" executionId="db28cc0d-47b3-4e0b-8dd0-dc43b1b3588a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6a6b768-0d9f-404e-1089-104d118957f4" executionId="d03bbd03-f481-4552-afcc-dad6a47eab14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="85f787cd-aa17-4260-9a24-57f753be4288" testId="283489f7-18c4-2334-aa3a-93a2bb2f2335" testName="DeadCellWithLessThenThreeAliveNeighboursStaysDead" computerName="THEDOLE-ASUS" duration="00:00:00.0339958" startTime="2012-12-19T19:47:15.1975229+01:00" endTime="2012-12-19T19:47:15.8527240+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85f787cd-aa17-4260-9a24-57f753be4288">
+    </UnitTestResult>
+    <UnitTestResult executionId="40a739c9-58a0-4441-8cd3-8673ebb88c64" testId="340ef246-e12f-a0f6-d485-f8c93e001dad" testName="AliveNeighbourCountOfEightConnectedNeighboursOn3x3grid" computerName="THEDOLE-ASUS" duration="00:00:00.0035135" startTime="2012-12-19T19:47:15.8527240+01:00" endTime="2012-12-19T19:47:15.8683241+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40a739c9-58a0-4441-8cd3-8673ebb88c64">
+    </UnitTestResult>
+    <UnitTestResult executionId="86fe0e5d-8855-44ab-b65b-f5e319eeaf72" testId="3db8c6c5-c2c4-8993-379c-ab3a7719e1ac" testName="AliveCellWithMoreThenThreeAliveNeigboursDies" computerName="THEDOLE-ASUS" duration="00:00:00.0004926" startTime="2012-12-19T19:47:15.8683241+01:00" endTime="2012-12-19T19:47:15.8683241+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86fe0e5d-8855-44ab-b65b-f5e319eeaf72">
+    </UnitTestResult>
+    <UnitTestResult executionId="9691e696-e73e-4064-bad6-088c25bbf07f" testId="481d0ecd-35aa-c3b3-a58e-df6acea9d162" testName="AliveCellWithLessThenTwoAliveNeigboursDies" computerName="THEDOLE-ASUS" duration="00:00:00.0004751" startTime="2012-12-19T19:47:15.8839241+01:00" endTime="2012-12-19T19:47:15.8839241+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9691e696-e73e-4064-bad6-088c25bbf07f">
+    </UnitTestResult>
+    <UnitTestResult executionId="a50f2409-b242-4d6b-a771-9972611697d8" testId="4d851a36-a238-74ed-1c5d-653addd908a4" testName="AliveNeighbourCountOfBorderPixel" computerName="THEDOLE-ASUS" duration="00:00:00.0575997" startTime="2012-12-19T19:47:15.8839241+01:00" endTime="2012-12-19T19:47:15.9463242+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a50f2409-b242-4d6b-a771-9972611697d8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method GameOfLife01.UnitTest1.AliveNeighbourCountOfBorderPixel threw exception: 
+System.IO.IOException: The handle is invalid.
+</Message>
+          <StackTrace>    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.Console.GetBufferInfo(Boolean throwOnNoConsole, Boolean&amp; succeeded)
+   at System.Console.set_CursorLeft(Int32 value)
+   at GameOfLife01.UnitTest1.&lt;DrawGrid&gt;b__6(Point c) in C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLife01\UnitTest1.cs:line 133
+   at System.Collections.Generic.List`1.ForEach(Action`1 action)
+   at GameOfLife01.UnitTest1.DrawGrid(List`1 cells) in C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLife01\UnitTest1.cs:line 132
+   at GameOfLife01.UnitTest1.AliveNeighbourCountOfBorderPixel() in C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLife01\UnitTest1.cs:line 97
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4bd987e-6e1a-4b69-aff4-26ab9fb65270" testId="8a38cc25-b9ac-4172-d9cb-fee8c9344c27" testName="AliveCellWithTwoOrThreeAliveNeighboursStaysAlive" computerName="THEDOLE-ASUS" duration="00:00:00.0005249" startTime="2012-12-19T19:47:15.9463242+01:00" endTime="2012-12-19T19:47:15.9619242+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4bd987e-6e1a-4b69-aff4-26ab9fb65270">
+    </UnitTestResult>
+    <UnitTestResult executionId="186c101a-34e1-4d33-aa6e-cca4ebe02a22" testId="8abccc33-4866-216c-529f-051cb4fe2e48" testName="DeadCellWithThreeAliveNeighboursBecomesAlive" computerName="THEDOLE-ASUS" duration="00:00:00.0003910" startTime="2012-12-19T19:47:15.9619242+01:00" endTime="2012-12-19T19:47:15.9619242+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="186c101a-34e1-4d33-aa6e-cca4ebe02a22">
+    </UnitTestResult>
+    <UnitTestResult executionId="db28cc0d-47b3-4e0b-8dd0-dc43b1b3588a" testId="c3348b1a-f430-4e15-a061-63b1dfd86c4c" testName="DeadCellWithMoreThenThreeAliveNeighboursStaysDead" computerName="THEDOLE-ASUS" duration="00:00:00.0004685" startTime="2012-12-19T19:47:15.9775243+01:00" endTime="2012-12-19T19:47:15.9775243+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db28cc0d-47b3-4e0b-8dd0-dc43b1b3588a">
+    </UnitTestResult>
+    <UnitTestResult executionId="d03bbd03-f481-4552-afcc-dad6a47eab14" testId="e6a6b768-0d9f-404e-1089-104d118957f4" testName="AliveNeighbourCountOfEightConnectedNeighboursOn5x5grid" computerName="THEDOLE-ASUS" duration="00:00:00.0011422" startTime="2012-12-19T19:47:15.9775243+01:00" endTime="2012-12-19T19:47:15.9931243+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d03bbd03-f481-4552-afcc-dad6a47eab14">
+    </UnitTestResult>
+  </Results>
+</TestRun>

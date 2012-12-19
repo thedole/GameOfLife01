@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7530f2ed-fc60-4eef-83c9-37d784cc90af" name="thedole@THEDOLE-ASUS 2012-12-18 00:33:36" runUser="THEDOLE-ASUS\thedole" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="168ee60e-43ee-4ad3-b024-3f224d347f6b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="thedole_THEDOLE-ASUS 2012-12-18 00_33_36" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-12-18T00:33:36.0336335+01:00" queuing="2012-12-18T00:33:38.8414144+01:00" start="2012-12-18T00:33:39.3094152+01:00" finish="2012-12-18T00:36:32.9954228+01:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="THEDOLE-ASUS" outcome="Error" timestamp="2012-12-18T00:36:32.9798227+01:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AliveNeighbourCountOfEightConnectedNeighboursOn5x5grid" storage="c:\users\thedole\documents\visual studio 2010\projects\codeplay\gameoflife\gameoflife01\gameoflife01\bin\debug\gameoflife01.dll" id="e6a6b768-0d9f-404e-1089-104d118957f4">
+      <Execution id="a4ecc7f2-958e-4f94-b0a4-af6c0a62ffc4" />
+      <TestMethod codeBase="C:/Users/thedole/Documents/Visual Studio 2010/Projects/CodePlay/GameOfLife/GameOfLife01/GameOfLife01/bin/Debug/GameOfLife01.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife01.UnitTest1, GameOfLife01, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AliveNeighbourCountOfEightConnectedNeighboursOn5x5grid" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e6a6b768-0d9f-404e-1089-104d118957f4" executionId="a4ecc7f2-958e-4f94-b0a4-af6c0a62ffc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a4ecc7f2-958e-4f94-b0a4-af6c0a62ffc4" testId="e6a6b768-0d9f-404e-1089-104d118957f4" testName="AliveNeighbourCountOfEightConnectedNeighboursOn5x5grid" computerName="THEDOLE-ASUS" duration="00:02:52.8592061" startTime="2012-12-18T00:33:40.1362167+01:00" endTime="2012-12-18T00:36:32.9954228+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4ecc7f2-958e-4f94-b0a4-af6c0a62ffc4">
+    </UnitTestResult>
+  </Results>
+</TestRun>
