@@ -1,5 +1,0 @@
-C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLifeLib\bin\Debug\GameOfLifeLib.dll
-C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLifeLib\bin\Debug\GameOfLifeLib.pdb
-C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLifeLib\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLifeLib\obj\Debug\GameOfLifeLib.dll
-C:\Users\thedole\Documents\Visual Studio 2010\Projects\CodePlay\GameOfLife\GameOfLife01\GameOfLifeLib\obj\Debug\GameOfLifeLib.pdb
